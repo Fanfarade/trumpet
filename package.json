@@ -1,0 +1,48 @@
+{
+  "name": "@fanfarade/trumpet",
+  "version": "0.1.0",
+  "description": "Fanfarade's marketing website.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "./node_modules/.bin/eslint . && ./node_modules/.bin/stylelint **/*.css",
+    "fix": "./node_modules/.bin/eslint . --fix && ./node_modules/.bin/stylelint **/*.css --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fanfarade/trumpet.git"
+  },
+  "author": "Tom Hirst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fanfarade/trumpet/issues"
+  },
+  "homepage": "https://github.com/Fanfarade/trumpet#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "next": "^10.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-inline-react-svg": "^1.1.2",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-standard": "^5.0.0",
+    "postcss": "^8.2.1",
+    "stylelint": "^13.8.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
