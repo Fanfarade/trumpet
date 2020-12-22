@@ -5,10 +5,18 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
+    fontFamily: {
+      display: ['Kanit', 'sans-serif'],
+      body: ['Kanit', 'sans-serif'],
+    },
     extend: {},
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: ['hover', 'focus', 'group-hover', 'group-focus'],
+      rotate: ['hover', 'focus', 'group-hover', 'group-focus'],
+      letterSpacing: ['hover', 'focus', 'group-hover', 'group-focus'],
+    },
   },
   plugins: [],
 };
