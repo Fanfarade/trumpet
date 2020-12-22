@@ -23,7 +23,7 @@ const Index = (): JSX.Element => (
           </h1>
           <p className="text-xl mb-6">
             Fanfarade identifies patterns between content and sales, so you know
-            <span className="font-medium">what works for your audience</span>
+            &nbsp;<span className="font-medium">what works for your audience</span>
             &nbsp;and what&nbsp;
             <span className="font-medium">makes you more money</span>
             .
