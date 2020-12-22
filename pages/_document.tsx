@@ -3,7 +3,7 @@ import Document, {
 } from 'next/document';
 
 class TrumpetDocument extends Document {
-  render() {
+  render(): JSX.Element {
     return (
       <Html>
         <Head>

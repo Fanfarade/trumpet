@@ -1,4 +1,4 @@
-const Index = () => (
+const Index = (): JSX.Element => (
   <h1>Fanfarade</h1>
 );
 
